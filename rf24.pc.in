@@ -1,0 +1,9 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: rf24
+Description: Optimized Raspberry Pi RF24 and RF24 Network Libraries.
+Version: 1.0
+Cflags: -I${includedir}
